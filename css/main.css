@@ -1,0 +1,23 @@
+section{
+    width: 750px;
+    /*border: 2px dashed steelblue;*/
+    margin: 16px;
+    padding: 2px;
+    position: relative;
+    top:0px;
+    left: 0px;
+    background: black;
+}
+/*Posicionamiento*/
+div{
+    border-radius: 5px;
+    color:white;
+    background:black;
+    display:inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    
+}
+
+
