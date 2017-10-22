@@ -7,17 +7,24 @@ section{
     top:0px;
     left: 0px;
     background: black;
+   
 }
 /*Posicionamiento*/
 div{
-    border-radius: 5px;
+    
     color:white;
     background:black;
     display:inline-block;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     padding: 5px;
+    /*Cambia el cursor css al posicionarse con el raton sobre el elemento div*/
+    cursor: pointer;
     
+}
+/*cambia de color al div al pasar por encima el mouse*/
+div:hover{
+    background-color: #ffc107;
 }
 
 
