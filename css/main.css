@@ -12,14 +12,15 @@ ul{
     margin: 0;
     background: #2e2e2a;
     line-height: 40px;
+    overflow: auto;
 
 }
 
 li{
     width: 100px;
-    display: inline-block;
+   /* display: inline-block;*/
     text-align: center;
-    
+    float: left;
     
 }
 
