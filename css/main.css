@@ -1,36 +1,23 @@
 body{
-    font-family: verdana;
-}
-section{
-    width: 750px;
-    /*border: 2px dashed steelblue;*/
-    margin: 16px;
-    padding: 0px;
-    position: relative;
-    top:0px;
-    left: 0px;
-    background: black;
-   
-}
-/*Posicionamiento*/
-div{
-    
-    color:white;
-    background:black;
-    display:inline-block;
-    font-size: 20px;
-    padding: 5px;
-    text-align: center;
-    line-height: 35px;
-   
+font-family: sans-serif;
 }
 
-div:hover{
-    background-color: #f9a91a;/*cambia de color de fondo del div al pasar por encima el mouse*/
-    color: #000; /*cambia de color letra de div*/
+nav{
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    width: 100px;
 }
 
 a{
-    text-decoration:none; 
-    color: white;
+    text-decoration: none;
+    color: #fff;
+
 }
